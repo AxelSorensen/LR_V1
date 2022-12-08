@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <link
+    href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="section1"></div>
+      <div id="sketch1" class="sketch"></div>
+      <div id="section2"></div>
+
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="./sketch.js"></script>
+  
+  <script>
+    $(function(){
+            $("#section1").load("./test.txt");
+            $("#section2").load("./test.txt");
+
+
+        });
+  </script>
+</html>
