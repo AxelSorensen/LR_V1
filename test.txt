@@ -1,3 +1,6 @@
 <h2>Neural Networks</h2>
-<p>Some text about them</p>
-<h3>Getting into it</h3>
+
+<h3>Simple Perceptron Example</h3>
+<p>Take a look at the simple perceptron below. It takes in 1 input and delivers 1 output. The input is multiplied by the weight of the connection and then fed through a activation function in order to calculate the activation of the neuron. In this example the activation function is very simple, it is just the sign of the input to the neuron. If the input is positive the output will be 1 and if it is negative the output will be -1</p>
+<br>
+<p>Try playing around with the weight of the connection between the input and the neuron with the slider below: </p>

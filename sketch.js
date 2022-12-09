@@ -16,7 +16,6 @@ function setup() {
   
   a = new Neuron(0,0);
   
-  
   network.addNeuron(a);
   
   for(i = 0; i<inputNeurons.length;i++) {
@@ -28,16 +27,14 @@ function setup() {
   outputNeuron = new Output(150,0,"y",activate(output));
   network.addOutput(outputNeuron);
   network.connect(a,outputNeuron);
-  
-  //network.addInput(x1);
-   //network.addInput(x2);
-  
-  //network.connect(x1,a,.25);
-  //network.connect(x2,a,.25);
-    label1 = createElement('p','w0');
+
+    label1 = createElement('p','w0 ');
+    label1.id('label')
     label1.parent('sketch1')
-  slider1 = createSlider(-1, 1, network.connections[0].weight,0.01);
-  slider1.parent('sketch1');
+    slider1 = createSlider(-1, 1, network.connections[0].weight,0.01);
+    slider1.id('slider1')
+    slider1.parent('label')
+    canvas.parent('label');
 
 
   
