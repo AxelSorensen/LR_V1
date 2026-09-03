@@ -32,3 +32,5 @@ Then open the printed local URL (default Vite port, typically [http://localhost:
 ## Status
 
 🧪 Small teaching/experiment sketch — single-neuron demo only, no persistence or multi-layer network support.
+
+✅ Runs cleanly — `npm install && npm run build` verified working as of 2026-09-03 (harmless Vite warning about `sketch.js` needing a `type="module"` attribute, build still succeeds).
