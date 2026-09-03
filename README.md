@@ -2,6 +2,8 @@
 
 An interactive p5.js visualization of a single-neuron network, with sliders to tweak input weights and watch the output change live.
 
+![LR_V1 screenshot](docs/screenshot.png)
+
 ## Features
 
 - 🎚️ **Live weight sliders** — drag a slider per input connection and see the neuron's output recompute in real time
